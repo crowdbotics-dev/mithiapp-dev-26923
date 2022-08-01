@@ -29,7 +29,27 @@ const Untitled1 = () => {
       lineHeight: 14,
       fontSize: 14,
       borderRadius: 0
-    }}>Lorem ipsum… </Text></View>;
+    }}>Lorem ipsum… </Text><View style={{
+      left: 27,
+      top: 238,
+      position: "absolute",
+      height: 90,
+      width: 150,
+      backgroundColor: "#e3e3e3",
+      borderRadius: 0,
+      color: "#777777"
+    }}></View><View style={{
+      left: 1,
+      top: 127,
+      position: "absolute",
+      width: 151,
+      height: 99,
+      backgroundColor: "#2ec447",
+      borderRadius: 0,
+      transform: "rotate(90deg)",
+      borderColor: "#040303",
+      borderWidth: 8
+    }}></View></View>;
 };
 
 export default Untitled1;
